@@ -2,20 +2,16 @@
   "name": "yungs-better-dungeons-no-spider-dungeons",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/pack.mcmeta.ts",
   "type": "module",
   "scripts": {
-    "build": "tsx ./src"
+    "build": "tsx datapack.config.ts"
   },
   "keywords": [],
   "author": "niralette",
   "license": "ISC",
   "dependencies": {
-    "archiver": "^7.0.1",
+    "datapack-utils": "workspace:*",
     "tsx": "^4.7.2"
-  },
-  "devDependencies": {
-    "@tsconfig/node21": "^21.0.3",
-    "@types/node": "^20.12.7"
   }
 }
