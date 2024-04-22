@@ -1,0 +1,17 @@
+{
+  "name": "yungs-better-dungeons-no-zombie-dungeons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/pack.mcmeta.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsx datapack.config.ts"
+  },
+  "keywords": [],
+  "author": "niralette",
+  "license": "ISC",
+  "dependencies": {
+    "datapack-utils": "workspace:*",
+    "tsx": "^4.7.2"
+  }
+}
